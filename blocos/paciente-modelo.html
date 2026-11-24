@@ -1,0 +1,46 @@
+<section class="blk-pm" id="paciente-modelo">
+  <div class="wrap">
+    <div class="blk-pm__cab" data-reveal>
+      <p class="blk-pm__eyebrow">Paciente modelo</p>
+      <h2 class="blk-pm__titulo">Uma vaga de paciente modelo passa por quatro etapas</h2>
+      <p class="blk-pm__lead">O Instituto também forma profissionais, e algumas turmas precisam de pacientes. As vagas são poucas e dependem do procedimento da vez.</p>
+    </div>
+    <div class="blk-pm__corpo">
+      <ol class="blk-pm__etapas">
+        <li data-reveal style="--d:0ms"><span>1</span><div><h3>Você se candidata</h3><p>Pelo WhatsApp, dizendo nome e o que gostaria de tratar.</p></div></li>
+        <li data-reveal style="--d:80ms"><span>2</span><div><h3>A equipe analisa</h3><p>O perfil é comparado com os procedimentos das próximas turmas.</p></div></li>
+        <li data-reveal style="--d:160ms"><span>3</span><div><h3>Se houver vaga, você é chamada</h3><p>Com a data, o procedimento e as condições daquela turma.</p></div></li>
+        <li data-reveal style="--d:240ms"><span>4</span><div><h3>A avaliação confirma</h3><p>A indicação final é sempre de uma profissional, no dia.</p></div></li>
+      </ol>
+      <aside class="blk-pm__nota" data-reveal>
+        <h3>Sobre fotos e vídeos</h3>
+        <p>Algumas vagas incluem registro de imagem para fins educacionais. Isso fica escrito nos termos e na autorização de uso de imagem, que você lê antes de confirmar.</p>
+        <p class="blk-pm__aviso">A inscrição não garante o procedimento.</p>
+        <a class="blk-pm__cta" href="https://wa.me/5547974009399?text=Ol%C3%A1!%20Quero%20me%20candidatar%20como%20paciente%20modelo.">Quero me candidatar</a>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<style>
+.blk-pm{padding-block:var(--sp-section);background:color-mix(in srgb,var(--pulse) 10%,var(--bg))}
+.blk-pm__cab{max-width:46rem;margin-bottom:var(--sp-5)}
+.blk-pm__eyebrow{margin:0 0 var(--sp-2);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand)}
+.blk-pm__titulo{margin:0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink)}
+.blk-pm__lead{margin:var(--sp-3) 0 0;color:color-mix(in srgb,var(--ink) 72%,transparent)}
+.blk-pm__etapas{list-style:none;margin:0;padding:0;display:grid;gap:0;counter-reset:none}
+.blk-pm__etapas li{display:grid;grid-template-columns:3rem 1fr;gap:var(--sp-2);padding:var(--sp-3) 0;border-top:1px solid color-mix(in srgb,var(--brand) 20%,transparent)}
+.blk-pm__etapas li:last-child{border-bottom:1px solid color-mix(in srgb,var(--brand) 20%,transparent)}
+.blk-pm__etapas span{font-family:var(--f-display);font-size:2.2rem;line-height:1;color:var(--brand)}
+.blk-pm__etapas h3{margin:0 0 .3rem;font-family:var(--f-display);font-size:1.45rem;line-height:1.2;color:var(--ink)}
+.blk-pm__etapas p{margin:0;color:color-mix(in srgb,var(--ink) 74%,transparent)}
+.blk-pm__nota{margin-top:var(--sp-5);padding:var(--sp-4) var(--sp-3);background:var(--ink);color:var(--bg);border-radius:var(--radius)}
+.blk-pm__nota h3{margin:0 0 .6rem;font-family:var(--f-display);font-size:1.6rem;color:var(--pulse)}
+.blk-pm__nota p{margin:0 0 .8rem;color:color-mix(in srgb,var(--bg) 82%,transparent)}
+.blk-pm__aviso{font-size:var(--t-label);letter-spacing:.08em;text-transform:uppercase}
+.blk-pm__cta{display:inline-block;margin-top:.6rem;padding:.95rem 1.5rem;background:var(--pulse);color:var(--ink);text-decoration:none;font-size:var(--t-label);letter-spacing:.14em;text-transform:uppercase;border-radius:var(--radius)}
+@media (min-width:900px){
+  .blk-pm__corpo{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:4rem;align-items:start}
+  .blk-pm__nota{margin-top:0;position:sticky;top:7rem}
+}
+</style>

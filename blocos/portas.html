@@ -1,0 +1,58 @@
+<section class="blk-portas" id="portas">
+  <div class="wrap">
+    <div class="blk-portas__cab" data-reveal>
+      <p class="blk-portas__eyebrow">Um endereço na Av. Atlântica</p>
+      <h2 class="blk-portas__titulo">Quatro motivos para chegar ao Instituto. Todos começam aqui.</h2>
+      <p class="blk-portas__lead">Paciente, futura paciente modelo ou profissional que quer aprender a técnica: escolha por onde entrar e fale direto com a equipe.</p>
+    </div>
+    <ol class="blk-portas__grade">
+      <li data-reveal style="--d:0ms">
+        <span class="blk-portas__n">01</span>
+        <span class="blk-portas__ico"><!--icone:rosto--></span>
+        <h3>Quero uma avaliação</h3>
+        <p>Primeira vez, ou ainda sem saber qual procedimento. A Dra. Adriana avalia e monta o plano com você.</p>
+        <a href="#como-funciona">Como é a avaliação</a>
+      </li>
+      <li data-reveal style="--d:90ms">
+        <span class="blk-portas__n">02</span>
+        <span class="blk-portas__ico"><!--icone:seringa--></span>
+        <h3>Já sei o procedimento</h3>
+        <p>Toxina, bioestimulador, limpeza de pele, criolipólise. Escolha na lista e fale direto com a equipe.</p>
+        <a href="#tratamentos">Ver os 25 procedimentos</a>
+      </li>
+      <li data-reveal style="--d:180ms">
+        <span class="blk-portas__n">03</span>
+        <span class="blk-portas__ico"><!--icone:estrela--></span>
+        <h3>Quero ser paciente modelo</h3>
+        <p>Vagas abertas por seleção, com acompanhamento profissional e condições diferenciadas.</p>
+        <a href="#paciente-modelo">Como funciona a seleção</a>
+      </li>
+      <li data-reveal style="--d:270ms">
+        <span class="blk-portas__n">04</span>
+        <span class="blk-portas__ico"><!--icone:microscopio--></span>
+        <h3>Sou profissional da estética</h3>
+        <p>Pós-graduação, residência em HOF, imersões e mentorias com quem atende na mesma casa.</p>
+        <a href="#formacao">Conhecer as formações</a>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<style>
+.blk-portas{padding-block:var(--sp-section)}
+.blk-portas__cab{max-width:46rem;margin-bottom:var(--sp-5)}
+.blk-portas__eyebrow{margin:0 0 var(--sp-2);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand)}
+.blk-portas__titulo{margin:0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink)}
+.blk-portas__lead{margin:var(--sp-3) 0 0;color:color-mix(in srgb,var(--ink) 72%,transparent)}
+.blk-portas__grade{list-style:none;margin:0;padding:0;display:grid;gap:var(--sp-3)}
+.blk-portas__grade li{position:relative;display:flex;flex-direction:column;gap:.5rem;padding:var(--sp-4) var(--sp-3) var(--sp-3);background:var(--bg);border:1px solid color-mix(in srgb,var(--brand) 22%,transparent);border-radius:var(--radius);box-shadow:0 18px 40px -30px color-mix(in srgb,var(--ink) 50%,transparent)}
+.blk-portas__grade li::before{content:"";position:absolute;inset:0 auto auto 0;width:3.5rem;height:2px;background:var(--pulse)}
+.blk-portas__n{position:absolute;top:var(--sp-3);right:var(--sp-3);font-family:var(--f-display);font-size:2.4rem;line-height:1;color:color-mix(in srgb,var(--pulse) 55%,transparent)}
+.blk-portas__ico{display:inline-flex;width:2.3rem;height:2.3rem;color:var(--brand)}
+.blk-portas__ico svg{width:100%;height:100%}
+.blk-portas__grade h3{margin:.4rem 0 0;font-family:var(--f-display);font-size:1.65rem;line-height:1.15;color:var(--ink)}
+.blk-portas__grade p{margin:0;flex:1;color:color-mix(in srgb,var(--ink) 74%,transparent)}
+.blk-portas__grade a{margin-top:.6rem;align-self:flex-start;font-size:var(--t-label);letter-spacing:.12em;text-transform:uppercase;color:var(--brand);text-decoration:none;border-bottom:1px solid var(--pulse);padding-bottom:.2rem}
+@media (min-width:700px){.blk-portas__grade{grid-template-columns:repeat(2,1fr)}}
+@media (min-width:1100px){.blk-portas__grade{grid-template-columns:repeat(4,1fr)}}
+</style>

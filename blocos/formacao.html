@@ -1,0 +1,44 @@
+<section class="blk-form" id="formacao">
+  <div class="wrap">
+    <div class="blk-form__corpo">
+      <div class="blk-form__texto">
+        <p class="blk-form__eyebrow" data-reveal>Área acadêmica</p>
+        <h2 class="blk-form__titulo" data-reveal>Quem aplica no consultório também ensina a técnica</h2>
+        <p class="blk-form__lead" data-acende>O "Acadêmico" do nome é literal. Além de atender, a Dra. Adriana forma biomédicas, fisioterapeutas e outras profissionais da estética, com prática supervisionada em turmas pequenas.</p>
+        <ul class="blk-form__lista">
+          <li data-reveal style="--d:0ms">Pós-graduação</li>
+          <li data-reveal style="--d:60ms">Residência em HOF</li>
+          <li data-reveal style="--d:120ms">Imersões</li>
+          <li data-reveal style="--d:180ms">Cursos</li>
+          <li data-reveal style="--d:240ms">Mentorias</li>
+        </ul>
+        <p class="blk-form__para" data-reveal>Para profissionais da estética e da saúde e para estudantes da área. Os requisitos mudam de uma formação para outra.</p>
+        <a class="blk-form__cta" data-reveal href="https://wa.me/5547974009399?text=Ol%C3%A1!%20Quero%20conhecer%20as%20forma%C3%A7%C3%B5es%20do%20Instituto.">Ver turmas abertas</a>
+      </div>
+      <div class="blk-form__fotos">
+        <figure class="blk-form__a"><!--foto:midia/turma.jpg|Dra. Adriana com uma turma de profissionais em aula prática, todas de touca e avental--></figure>
+        <figure class="blk-form__b" data-reveal><!--foto:midia/pratica.jpg|Dra. Adriana orientando profissionais durante uma aula prática--></figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+.blk-form{padding-block:var(--sp-section);background:var(--ink);color:var(--bg)}
+.blk-form__eyebrow{margin:0 0 var(--sp-2);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--pulse)}
+.blk-form__titulo{margin:0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--bg)}
+.blk-form__lead{margin:var(--sp-3) 0 0;font-size:1.15rem;line-height:1.6;color:color-mix(in srgb,var(--bg) 85%,transparent)}
+.blk-form__lista{list-style:none;margin:var(--sp-4) 0 0;padding:0;display:flex;flex-wrap:wrap;gap:.6rem}
+.blk-form__lista li{padding:.55rem 1rem;border:1px solid color-mix(in srgb,var(--pulse) 60%,transparent);border-radius:99px;font-size:var(--t-label);letter-spacing:.1em;text-transform:uppercase;color:var(--pulse)}
+.blk-form__para{margin:var(--sp-4) 0 0;color:color-mix(in srgb,var(--bg) 70%,transparent)}
+.blk-form__cta{display:inline-block;margin-top:var(--sp-3);padding:.95rem 1.5rem;background:var(--pulse);color:var(--ink);text-decoration:none;font-size:var(--t-label);letter-spacing:.14em;text-transform:uppercase;border-radius:var(--radius)}
+.blk-form__fotos{position:relative;margin-top:calc(var(--sp-5) + 1rem);display:grid;gap:var(--sp-2)}
+.blk-form__fotos figure{margin:0;overflow:hidden;border-radius:var(--radius)}
+.blk-form__fotos img{display:block;width:100%;height:100%;object-fit:cover}
+.blk-form__a{aspect-ratio:3/2}
+.blk-form__b{aspect-ratio:4/5;width:62%;justify-self:end;margin-top:-22%;border:6px solid var(--ink)}
+@media (min-width:900px){
+  .blk-form__corpo{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);gap:4.5rem;align-items:center}
+  .blk-form__fotos{margin-top:0}
+}
+</style>

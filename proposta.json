@@ -1,0 +1,351 @@
+{
+  "slug": "adriana-vinhal",
+  "negocio": {
+    "nome": "Instituto Acadêmico Vinhal",
+    "logo": "brand/logo-lockup.png",
+    "whatsapp": "5547974009399",
+    "telefone": "(47) 97400-9399",
+    "funcionamento": {
+      "seg": "09:00-20:00",
+      "ter": "09:00-20:00",
+      "qua": "09:00-20:00",
+      "qui": "09:00-20:00",
+      "sex": "09:00-20:00",
+      "sab": "09:00-12:00",
+      "dom": null
+    },
+    "unidades": [
+      {
+        "bairro": "Centro · Balneário Camboriú",
+        "endereco": "Av. Atlântica, 2440, sala 12 – Edifício Aldebaran, Centro, Balneário Camboriú – SC, 88330-907",
+        "telefone": "(47) 97400-9399",
+        "horario": "Segunda a sexta, 9h às 20h · Sábado, 9h às 12h"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#8A6A38",
+    "brand2": "#5E4723",
+    "ink": "#26211B",
+    "bg": "#FBF9F5",
+    "pulse": "#C9A86A",
+    "radius": "2px",
+    "registro": "editorial",
+    "fontDisplay": "Cormorant Garamond",
+    "fontBody": "Jost",
+    "tomHero": "claro",
+    "tomCorpo": "claro"
+  },
+  "motivo": "camadas",
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Paciente modelo",
+            "href": "#paciente-modelo"
+          },
+          {
+            "texto": "Formação",
+            "href": "#formacao"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "moldura",
+      "data": {
+        "eyebrow": "Estética avançada · Balneário Camboriú",
+        "h1": "Estética planejada por quem também ensina a técnica",
+        "lead": "A Dra. Adriana Vinhal é biomédica e fisioterapeuta dermatofuncional. Atende na Av. Atlântica e, na mesma casa, forma profissionais da estética.",
+        "cta": "Agendar minha avaliação",
+        "ctaSecundario": "Escolher pelo procedimento",
+        "ctaSecundarioHref": "#tratamentos",
+        "imagem": "midia/retrato.jpg",
+        "imagemAlt": "Dra. Adriana Vinhal sorrindo, de vestido preto e luvas pretas, no Instituto",
+        "tarja": [
+          "5,0 no Google, 110 avaliações",
+          "Biomédica · CRBM-5 010590",
+          "Fisioterapeuta dermatofuncional",
+          "Sábado das 9h às 12h"
+        ]
+      }
+    },
+    {
+      "id": "fita",
+      "variant": "inclinada",
+      "data": {
+        "itens": [
+          "Toxina botulínica",
+          "Bioestimulador de colágeno",
+          "Preenchimento",
+          "Microagulhamento",
+          "Criolipólise",
+          "Carboxiterapia",
+          "Drenagem pós-operatória"
+        ]
+      }
+    },
+    {
+      "custom": "blocos/portas.html"
+    },
+    {
+      "id": "manifesto",
+      "variant": "pagina",
+      "data": {
+        "eyebrow": "A Dra. Adriana",
+        "texto": [
+          "Antes de qualquer agulha, vem a conversa: o que incomoda, o que você espera, o que já fez. O plano sai daí, e muitas vezes junta mais de um procedimento em etapas.",
+          "As pacientes costumam contar a mesma coisa nas avaliações: ela explica com calma, não exagera na dose e o resultado fica natural."
+        ],
+        "imagem": "midia/retrato-largo.jpg",
+        "imagemAlt": "Dra. Adriana Vinhal calçando luvas pretas diante de uma parede clara"
+      }
+    },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "Os procedimentos",
+        "lead": "São 25, em cinco grupos. A indicação, o número de sessões e o protocolo saem da avaliação.",
+        "itens": [
+          {
+            "nome": "Harmonização e injetáveis",
+            "descricao": "Toxina botulínica no terço superior ou no rosto todo, preenchimento facial e bioestimulador de colágeno, inclusive no pescoço.",
+            "icone": "seringa",
+            "imagem": "midia/aplicacao.jpg"
+          },
+          {
+            "nome": "Tratamentos faciais",
+            "descricao": "Limpeza de pele, microagulhamento, peeling orgânico e retinoico, radiofrequência, drenagem facial, carboxiterapia e jato de plasma.",
+            "icone": "rosto"
+          },
+          {
+            "nome": "Tratamentos corporais",
+            "descricao": "Criolipólise, lipocavitação, hidrolipo enzimática, enzimas, radiofrequência, carboxiterapia, lipo de papada e drenagem pós-operatória.",
+            "icone": "spa"
+          },
+          {
+            "nome": "Microvasos",
+            "descricao": "PEIM, o procedimento injetável para os vasinhos das pernas, feito por quem é da área dermatofuncional.",
+            "icone": "gota"
+          },
+          {
+            "nome": "Capilar",
+            "descricao": "Carboxiterapia no couro cabeludo para quem trata queda de cabelo e alopecia.",
+            "icone": "folha"
+          }
+        ]
+      }
+    },
+    {
+      "id": "passos",
+      "variant": "timeline",
+      "data": {
+        "titulo": "Do primeiro contato ao retorno",
+        "lead": "O mesmo caminho para quem vem pela primeira vez e para quem já é paciente.",
+        "itens": [
+          {
+            "titulo": "Conversa no WhatsApp",
+            "texto": "Você conta o que procura e a equipe acha um horário na agenda da Dra. Adriana.",
+            "icone": "conversa"
+          },
+          {
+            "titulo": "Avaliação",
+            "texto": "Histórico, características da pele e objetivo. É aqui que se define o que faz sentido para você.",
+            "icone": "rosto"
+          },
+          {
+            "titulo": "Plano em etapas",
+            "texto": "Quando são vários procedimentos, eles entram numa ordem segura, com valores apresentados depois da avaliação.",
+            "icone": "agenda"
+          },
+          {
+            "titulo": "Retorno no tempo certo",
+            "texto": "Toxina, bioestimulador e peeling têm data de revisão e de reaplicação. A equipe combina essa data com você ainda no consultório.",
+            "icone": "check"
+          }
+        ]
+      }
+    },
+    {
+      "id": "conversa",
+      "variant": "celular",
+      "data": {
+        "eyebrow": "Pelo WhatsApp",
+        "titulo": "Marcar e remarcar leva uma conversa curta",
+        "lead": "Na revisão da toxina ou na próxima sessão do bioestimulador, a equipe responde no mesmo número do Google.",
+        "cta": "Falar com a equipe",
+        "contato": "Instituto Vinhal",
+        "mensagens": [
+          {
+            "de": "paciente",
+            "texto": "Oi! Fiz toxina com a Dra. Adriana em julho. Já é hora de voltar?"
+          },
+          {
+            "de": "clinica",
+            "texto": "Oi! Pela sua ficha, a aplicação foi no dia 14/07, então já faz 4 meses. Vale marcar a reavaliação."
+          },
+          {
+            "de": "clinica",
+            "texto": "Quinta às 16h serve?"
+          },
+          {
+            "de": "paciente",
+            "texto": "Serve! Obrigada por conferir."
+          }
+        ]
+      }
+    },
+    {
+      "id": "numeros",
+      "variant": "vivo",
+      "data": {
+        "titulo": "O Instituto em números",
+        "itens": [
+          {
+            "valor": "5,0",
+            "rotulo": "nota no Google"
+          },
+          {
+            "valor": "110",
+            "rotulo": "avaliações de pacientes",
+            "contar": 110
+          },
+          {
+            "valor": "25",
+            "rotulo": "procedimentos faciais, corporais e capilares",
+            "contar": 25
+          },
+          {
+            "valor": "5",
+            "rotulo": "formatos de formação para profissionais",
+            "contar": 5
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/paciente-modelo.html"
+    },
+    {
+      "custom": "blocos/formacao.html"
+    },
+    {
+      "id": "depoimentos",
+      "variant": "citacoes",
+      "data": {
+        "titulo": "Quem já passou pela avaliação",
+        "itens": [
+          {
+            "texto": "Achei a Dra. Adriana pelo Google. Ela explica tudo com muita calma, tira as dúvidas e passa segurança. O resultado ficou natural, como eu queria.",
+            "autor": "Kelin",
+            "contexto": "Google"
+          },
+          {
+            "texto": "Uma profissional que deixa a gente segura para fazer os procedimentos, sem exageros e com produtos de qualidade.",
+            "autor": "Juliana",
+            "contexto": "Google"
+          },
+          {
+            "texto": "Fiz limpeza de pele e microagulhamento e amei o resultado.",
+            "autor": "Paciente do Instituto",
+            "contexto": "Google"
+          }
+        ]
+      }
+    },
+    {
+      "id": "galeria",
+      "variant": "faixa",
+      "data": {
+        "titulo": "O espaço",
+        "lead": "Uma sala no Edifício Aldebaran, na Av. Atlântica, perto do Centro de BC.",
+        "itens": [
+          {
+            "imagem": "midia/fachada.jpg",
+            "legenda": "A entrada do Instituto"
+          },
+          {
+            "imagem": "midia/sala.jpg",
+            "legenda": "Sala de atendimento"
+          },
+          {
+            "imagem": "midia/predio.jpg",
+            "legenda": "Edifício Aldebaran, Av. Atlântica 2440"
+          },
+          {
+            "imagem": "midia/sala2.jpg",
+            "legenda": "Consultório"
+          }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "acordeao",
+      "data": {
+        "titulo": "Dúvidas comuns",
+        "itens": [
+          {
+            "p": "Como é a primeira avaliação?",
+            "r": "É uma conversa individual com a Dra. Adriana sobre seu histórico, sua pele e o que você quer mudar. O plano de tratamento sai dessa conversa."
+          },
+          {
+            "p": "Quando preciso voltar depois da toxina?",
+            "r": "Há uma revisão por volta de 15 dias depois da aplicação. O efeito costuma durar de 4 a 6 meses, e o intervalo muda de pessoa para pessoa."
+          },
+          {
+            "p": "Em quanto tempo o bioestimulador mostra resultado?",
+            "r": "A pele começa a mudar nas primeiras semanas, e o colágeno continua se formando ao longo dos meses seguintes. Por isso o tratamento tem retornos programados."
+          },
+          {
+            "p": "Como sei os valores?",
+            "r": "Os valores e as condições de pagamento são apresentados depois da avaliação, de acordo com o plano montado para você."
+          },
+          {
+            "p": "Ser paciente modelo garante o procedimento?",
+            "r": "Não. A candidatura entra numa seleção, e a vaga depende do procedimento de cada turma e da avaliação profissional."
+          },
+          {
+            "p": "A clínica tem acessibilidade?",
+            "r": "Tem. Entrada, estacionamento e assentos são acessíveis para cadeira de rodas."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "Onde fica",
+        "imagem": "midia/entrada.jpg"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Sua avaliação começa com uma mensagem",
+        "lead": "Segunda a sexta das 9h às 20h, sábado até o meio-dia, na Av. Atlântica 2440.",
+        "cta": "Agendar pelo WhatsApp"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "assinatura",
+      "data": {}
+    }
+  ]
+}
